@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020202;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-size: auto;
+}
+
+.references{
+    float: left;
+    margin: 50px;
+    max-width: 300px;
+    margin: 50px auto;
+    margin-right: 100px ;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #98afad;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.references h1{
+    text-shadow: #020202;
+    color: rgb(12, 12, 3);
+}
+.references ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.references li {
+    font-size: min(3h, 3vw);
+    float: left;
+    align-items: center;
+    margin-left: 10%;
+}
+.references li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.references li a:hover {
+    background-color: whitesmoke;
+}
+
+.container {
+    float: right;
+    margin: 50px;
+    max-width: 400px;
+    margin: 50px auto;
+    margin-right: 100px ;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #ebe6e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7281a888;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #be3434;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #6451c746;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
